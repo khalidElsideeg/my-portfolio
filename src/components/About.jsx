@@ -8,12 +8,12 @@ const About = () => {
         initial={{ y: -100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 1 }}
-        className="mt-16 -mb-6 lg:mb-0 text-center text-3xl font-titleFont bg-gradient-to-r from-pink-200 via-slate-400 to-purple-600 lg:text-4xl tracking-tighter bg-clip-text text-transparent"
+        className="lg:mt-16 lg:mb-0 my-10 lg:my-0 text-center text-3xl font-titleFont bg-gradient-to-r from-pink-200 via-slate-400 to-purple-600 lg:text-4xl tracking-tighter bg-clip-text text-transparent"
       >
         About Me
       </motion.h2>
       <div className="flex flex-wrap items-center justify-center">
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2 hidden lg:flex">
           <motion.div
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
