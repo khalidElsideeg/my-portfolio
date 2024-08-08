@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "./../constants/index";
 import { motion } from "framer-motion";
 import BackToTop from "./BackToTop";
+import developer from "../assets/web-developer-4506461-3738664.webp";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -47,7 +48,7 @@ const Hero = () => {
             className=" w-full flex items-center justify-center lg:p-8"
           >
             <img
-              src="/src/assets/web-developer-4506461-3738664.webp"
+              src={developer}
               alt="Dev_Image"
               className="object-contain rounded-md"
             />

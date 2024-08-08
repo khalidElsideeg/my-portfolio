@@ -1,11 +1,12 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import logo from "../assets/20220512_215934[18].jpg";
 
 const Navbar = () => {
   return (
     <nav className="mb-6 h py-6  flex items-center justify-between">
       <div className="flex flex-shrink-0 items-center justify-center m-8 rounded-full">
         <img
-          src="/src/assets/20220512_215934[18].jpg"
+          src={logo}
           width={30}
           height={30}
           className="rounded-full w-8 h-8 object-cover"

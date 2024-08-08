@@ -1,5 +1,6 @@
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
+import developer from "../assets/3d-website-developer-working-on-laptop-illustration-png.webp";
 
 const About = () => {
   return (
@@ -20,11 +21,7 @@ const About = () => {
             transition={{ duration: 0.5 }}
             className=" flex w-full items-center justify-center"
           >
-            <img
-              src="/src/assets/3d-website-developer-working-on-laptop-illustration-png.webp"
-              alt="Dev_Image"
-              className="rounded-2xl "
-            />
+            <img src={developer} alt="Dev_Image" className="rounded-2xl " />
           </motion.div>
         </div>
         <div className="w-full lg:w-1/2 flex items-center justify-center">
